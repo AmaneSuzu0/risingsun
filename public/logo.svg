@@ -1,0 +1,31 @@
+<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle (optional, for padding) -->
+  <circle cx="400" cy="400" r="380" fill="none"/>
+  
+  <!-- Sun and people group -->
+  <g transform="translate(200, 200)">
+    <!-- Sun circle -->
+    <circle cx="200" cy="200" r="120" fill="#FF6B6B"/>
+    
+    <!-- Sun rays -->
+    <g fill="#FF8E53">
+      <rect x="340" y="190" width="40" height="20" rx="10" transform="rotate(0, 200, 200)"/>
+      <rect x="340" y="190" width="40" height="20" rx="10" transform="rotate(30, 200, 200)"/>
+      <rect x="340" y="190" width="40" height="20" rx="10" transform="rotate(60, 200, 200)"/>
+      <rect x="340" y="190" width="40" height="20" rx="10" transform="rotate(90, 200, 200)"/>
+      <rect x="340" y="190" width="40" height="20" rx="10" transform="rotate(120, 200, 200)"/>
+      <rect x="340" y="190" width="40" height="20" rx="10" transform="rotate(150, 200, 200)"/>
+    </g>
+    
+    <!-- People silhouettes -->
+    <g fill="#FFFFFF">
+      <!-- Adult figure -->
+      <path d="M180 180 C180 140, 220 140, 220 180 L220 240 L200 240 L200 280 L240 280 L240 180 C240 120, 160 120, 160 180 L160 280 L200 280 L200 240 L180 240 Z"/>
+      <!-- Child figure -->
+      <path d="M260 200 C260 170, 290 170, 290 200 L290 240 L275 240 L275 270 L305 270 L305 200 C305 155, 245 155, 245 200 L245 270 L275 270 L275 240 L260 240 Z" transform="scale(0.8)"/>
+    </g>
+  </g>
+  
+  <!-- Horizon line -->
+  <path d="M150 500 Q400 450 650 500" stroke="#4ECDC4" stroke-width="20" fill="none"/>
+</svg>
